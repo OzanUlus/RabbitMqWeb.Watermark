@@ -13,7 +13,7 @@ namespace RabbitMQWeb.Watermark.Models
         public decimal Price { get; set; }
         [Range(1,100)]
         public int Stock { get; set; }
-        [StringLength(150)]
+  
         public string PictureUrl { get; set; }
     }
 }
